@@ -86,8 +86,8 @@ public class search2 extends SimpleFileVisitor<Path> {
             ".git", ".svn", ".config", ".terraform", ".npm", "temp",
             "tmp", ".gradle", ".vscode", "release", "node_modules", "venv",
             "__pycache__", "$RECYCLE.BIN", "platforms", "res", "layout", "build-tools", "ndk", "emulator",
-            "gen", "obj", "plugins", "tzdata", "site-packages"
-    };// site-packages is added in blacklist due to too much garbage and little usage
+            "gen", "obj", "plugins", "tzdata"
+    };
     String[] penalizeFolders = {
             "lib",
             "libs",
